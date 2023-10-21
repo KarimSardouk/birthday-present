@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #FFC0CB;
+    color: #fff;
+    padding: 1em;
+}
+img{
+    max-width: 600px;
+    max-height: 500px;
+    border-radius: 20%;
+}
+main {
+    padding: 2em;
+}
+
+.message {
+    margin-bottom: 2em;
+}
+
+footer {
+    background-color: #F2BFFF;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.candle1, .candle2 {
+    width: 80px;
+    position: absolute;
+    bottom: 70%;
+    transform: translateY(50%);
+}
+
+.candle1 {
+    left: 30%;
+}
+
+.candle2 {
+    right: 30%;
+}
